@@ -265,7 +265,23 @@ Runtime 常管的内容：
 
 “如果 Tool Calling 解决的是‘怎么调一个工具’，MCP 更像在解决‘怎么标准化接入一类能力’。”
 
-## 十四、这些词之间怎么区分
+## 十四、什么是 ACP
+
+面试可讲定义：
+
+“ACP（Agent Communication Protocol）可以理解成 Agent 和 Agent 之间的标准通信协议，重点是让不同 Agent 用统一方式交换消息、能力和任务状态。”
+
+为什么重要：
+
+- 多 Agent 系统越来越常见
+- 平台型 Agent 不只需要接工具，还需要接其他 Agent
+- 纯定制接口会让生态碎片化
+
+一句话表达：
+
+“MCP 更偏模型 / Agent 接工具，ACP 更偏 Agent 和 Agent 怎么协作。”
+
+## 十五、这些词之间怎么区分
 
 最实用的区分方式：
 
@@ -279,9 +295,10 @@ Runtime 常管的内容：
 - `Hook`：生命周期治理点
 - `SSE`：流式消息传输方式
 - `MCP`：外部能力标准化接入协议
+- `ACP`：Agent 之间的标准通信协议
 - `Sandbox`：受控环境
 
-## 十五、面试里可以直接用的总结句
+## 十六、面试里可以直接用的总结句
 
 ### 1. Skill 和 Prompt 的区别
 
@@ -311,9 +328,13 @@ Runtime 常管的内容：
 
 “MCP 是模型与外部能力之间的标准化接入协议，适合平台型 Agent 系统统一接工具和资源。”
 
-## 十六、建议回看顺序
+### 8. ACP 是什么
+
+“ACP 是面向 Agent-to-Agent 协作的标准通信协议，重点是让不同 Agent 用统一方式交换消息和协同执行任务。”
+
+## 十七、建议回看顺序
 
 1. 先看 `Harness / Skill / Runtime / Trace`
 2. 再看 `Eval / Guardrail / Sandbox / Hook`
-3. 再看 `SSE / MCP`
+3. 再看 `SSE / MCP / ACP`
 4. 最后看 `Multi-Agent / Agentic Workflow`

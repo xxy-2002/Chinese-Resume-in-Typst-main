@@ -200,6 +200,30 @@ const resources = {
       priority: "sprint",
       note: "第三轮",
     },
+    {
+      title: "逐行简历版模拟面试",
+      desc: "按简历信息顺序逐条发问，适合查漏补缺，确保每一行都能接得住。",
+      path: "../mock-interviews/mock-interview-v4-resume-line-by-line.md",
+      type: "模拟",
+      priority: "today",
+      note: "查漏用",
+    },
+    {
+      title: "Agent 系统与协议版",
+      desc: "专练 Harness、Runtime、MCP、ACP、SSE、Trace、Eval 等系统层问题。",
+      path: "../mock-interviews/mock-interview-v5-agent-systems-and-protocols.md",
+      type: "模拟",
+      priority: "sprint",
+      note: "系统层",
+    },
+    {
+      title: "查漏补缺与红旗追问版",
+      desc: "专门模拟面试官继续下压，识别你最容易被问穿的点。",
+      path: "../mock-interviews/mock-interview-v6-gap-filling-and-red-flags.md",
+      type: "模拟",
+      priority: "sprint",
+      note: "红旗版",
+    },
   ],
   reference: [
     {

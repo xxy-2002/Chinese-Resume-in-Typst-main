@@ -92,6 +92,24 @@
 
 “Agent 工程正在从单体 prompt，转向由 skill、工作区说明、工具协议和运行时约束共同构成的系统。这样能力更模块化，也更利于团队协作和平台化。”
 
+### 4. ACP / A2A 这类 Agent-to-Agent 协议
+
+可讲法：
+
+“随着多 Agent 系统变多，大家开始不满足于每个系统自己定一套接口，所以像 ACP、A2A 这类协议开始重要。它们本质上是在解决 Agent 和 Agent 之间的互操作性问题。”
+
+你可以这样区分：
+
+- `MCP`：模型 / Agent 如何接工具和资源
+- `ACP`：Agent 和 Agent 如何标准化通信
+- `A2A`：也是 Agent-to-Agent 协作协议路线
+
+对岗位的意义：
+
+- 更适合平台型 Agent 架构
+- 更适合多团队、多系统协同
+- 更利于把多个专业 Agent 组合起来
+
 ## 四、Agent 训练与优化里值得知道的新方法
 
 下面这些不是要求你说成论文综述，而是能让你在面试里表现出“知道行业现在怎么提升 agent”。
@@ -196,6 +214,8 @@
 - `Skill`
 - `Sandbox`
 - `MCP`
+- `ACP`
+- `A2A`
 - `Agentic Workflow`
 - `Planner / Executor / Verifier`
 - `Training-Agent Disaggregation`
