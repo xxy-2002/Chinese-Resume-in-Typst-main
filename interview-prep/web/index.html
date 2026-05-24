@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>面试准备资料库</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="floating-checklist" href="#checklist-panel">Checklist</a>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <p class="eyebrow">Interview Prep Library</p>
+          <h1>面试准备资料库</h1>
+          <p class="subtitle">
+            围绕 <code>2026_6</code> 简历整理的静态资料导航页，优先支持快速定位、连续浏览和短期冲刺准备。
+          </p>
+        </div>
+        <div class="topbar-tools">
+          <label class="search-box" for="global-search">
+            <span>搜索资料</span>
+            <input id="global-search" type="search" placeholder="搜索关键词，例如 GEPA / JoyDeliver / Redis" />
+          </label>
+          <div class="toolbar-meta">
+            <div class="metric">
+              <span class="metric-label">核心入口</span>
+              <strong>5</strong>
+            </div>
+            <div class="metric">
+              <span class="metric-label">总资料数</span>
+              <strong id="total-count">0</strong>
+            </div>
+            <div class="metric">
+              <span class="metric-label">目标岗位</span>
+              <strong>AI应用研发</strong>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="left-nav">
+          <div class="nav-card">
+            <p class="nav-title">目录</p>
+            <nav>
+              <a href="#start">开始准备</a>
+              <a href="#experience">核心经历</a>
+              <a href="#fundamentals">基础知识</a>
+              <a href="#handwriting">手撕题</a>
+              <a href="#mock">模拟面试</a>
+              <a href="#reference">参考资料</a>
+            </nav>
+          </div>
+
+          <div class="nav-card">
+            <p class="nav-title">快速筛选</p>
+            <div class="filter-group" id="priority-filters">
+              <button class="filter-chip active" data-filter="all">全部</button>
+              <button class="filter-chip" data-filter="core">核心</button>
+              <button class="filter-chip" data-filter="today">今天先看</button>
+              <button class="filter-chip" data-filter="sprint">3天冲刺</button>
+              <button class="filter-chip" data-filter="reference">参考</button>
+            </div>
+          </div>
+        </aside>
+
+        <section class="content-column">
+          <section class="section-block section-intro" id="start">
+            <div class="section-head">
+              <div>
+                <p class="section-kicker">Start Here</p>
+                <h2>开始准备</h2>
+              </div>
+              <p class="section-note">先从总控手册和冲刺计划进入，不要直接淹没在零散资料里。</p>
+            </div>
+            <div class="hero-grid" id="hero-grid"></div>
+          </section>
+
+          <section class="section-block" id="experience">
+            <div class="section-head">
+              <div>
+                <p class="section-kicker">Core Experience</p>
+                <h2>核心经历</h2>
+              </div>
+              <p class="section-note">按岗位相关度排序，核心是 JoyDeliver、Flow 和 Skill Factory。</p>
+            </div>
+            <div class="card-grid" id="experience-grid"></div>
+          </section>
+
+          <section class="section-block" id="fundamentals">
+            <div class="section-head">
+              <div>
+                <p class="section-kicker">Fundamentals</p>
+                <h2>基础知识</h2>
+              </div>
+              <p class="section-note">优先准备 Redis / MySQL / 网络，再补 Agent 新概念和前沿方法。</p>
+            </div>
+            <div class="card-grid" id="fundamentals-grid"></div>
+          </section>
+
+          <section class="section-block" id="handwriting">
+            <div class="section-head">
+              <div>
+                <p class="section-kicker">Handwriting</p>
+                <h2>手撕题</h2>
+              </div>
+              <p class="section-note">定位为补充项，主入口是 Hot 100 终版，不要抢占项目主线的准备时间。</p>
+            </div>
+            <div class="card-grid" id="handwriting-grid"></div>
+          </section>
+
+          <section class="section-block" id="mock">
+            <div class="section-head">
+              <div>
+                <p class="section-kicker">Simulation</p>
+                <h2>模拟面试</h2>
+              </div>
+              <p class="section-note">从均衡版开始，再切到项目深挖和压力追问版本。</p>
+            </div>
+            <div class="card-grid" id="mock-grid"></div>
+          </section>
+
+          <section class="section-block" id="reference">
+            <div class="section-head">
+              <div>
+                <p class="section-kicker">Reference</p>
+                <h2>参考资料</h2>
+              </div>
+              <p class="section-note">这里放补充材料、原始资料和归档内容，适合扩展阅读，不建议当首屏主线。</p>
+            </div>
+            <div class="card-grid" id="reference-grid"></div>
+          </section>
+        </section>
+
+        <aside class="right-rail">
+          <div class="rail-card">
+            <p class="rail-title">推荐路径</p>
+            <ol>
+              <li>主手册</li>
+              <li>三大核心项目</li>
+              <li>Agent 基础与前沿</li>
+              <li>Redis / MySQL / 网络</li>
+              <li>模拟面试</li>
+            </ol>
+          </div>
+          <div class="rail-card">
+            <p class="rail-title">3 天冲刺</p>
+            <div class="mini-progress">
+              <span>Day 1</span>
+              <div class="bar"><div class="fill day1"></div></div>
+            </div>
+            <div class="mini-progress">
+              <span>Day 2</span>
+              <div class="bar"><div class="fill day2"></div></div>
+            </div>
+            <div class="mini-progress">
+              <span>Day 3</span>
+              <div class="bar"><div class="fill day3"></div></div>
+            </div>
+            <p class="rail-note">先把项目讲顺，再补基础，再做模拟。</p>
+          </div>
+          <div id="checklist-panel" class="rail-card checklist-card">
+            <div class="checklist-head">
+              <p class="rail-title">准备 Checklist</p>
+              <button id="reset-checklist" class="ghost-button" type="button">重置</button>
+            </div>
+            <div class="checklist-progress">
+              <span id="checklist-count">0 / 0</span>
+              <div class="bar"><div id="checklist-fill" class="fill checklist-fill"></div></div>
+            </div>
+            <div id="checklist-items" class="checklist-items"></div>
+          </div>
+          <div class="rail-card">
+            <p class="rail-title">浏览提示</p>
+            <ul class="tips-list">
+              <li>首选从主手册进入。</li>
+              <li>核心资料优先读 Markdown，不先啃 PDF。</li>
+              <li>参考材料只用于扩展，不替代项目事实。</li>
+            </ul>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
