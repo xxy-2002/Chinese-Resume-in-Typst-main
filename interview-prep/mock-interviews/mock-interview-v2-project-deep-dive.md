@@ -84,10 +84,44 @@
 纵向追问：
 
 - 为什么还需要 Pareto Frontier
+- 为什么你说它像退化的 Policy Gradient
 
 横向追问：
 
 - 它和普通网格搜索、人工调 prompt 的区别是什么
+
+## 6.1 你这个项目真实的系统架构是什么？
+
+答：
+
+“我把它拆成了四角色：Pi 负责执行 skill 产出 trace，Codex 负责评分和结构化反馈，DSPy 负责模块化编排，GEPA / TextGrad / OPRO 负责候选优化。这样执行、评估和搜索逻辑是分离的，更容易替换和对比。”
+
+纵向追问：
+
+- 为什么要四角色分离
+- 哪一层最难做
+
+## 6.2 你的 evaluator 具体做了什么增强？
+
+答：
+
+“我把原始的 keyword overlap evaluator 升级成了 Rubric-aware evaluator。它会解析 `must / must_not` 结构化规则，再做 exact、stem、synonym、fuzzy 等多层渐进匹配，所以评估更稳，也更适合复杂约束。”
+
+纵向追问：
+
+- 为什么不能只用关键词匹配
+- 同义词和模糊匹配为什么重要
+
+## 6.3 你怎么验证这个系统不是只在 toy case 上有效？
+
+答：
+
+“我做了 24-case benchmark，分成 8 train、8 validation、8 holdout，再用 6 个维度做诊断。结果上 baseline 是 0.39 aggregate、2/24 passed，candidate 到了 0.58 aggregate、9/24 passed，而且没有 regression。”
+
+纵向追问：
+
+- 为什么要分 train / validation / holdout
+- 为什么 6 个维度有意义
 
 ## 7. 5 维 AND 门控为什么比加权分更好
 

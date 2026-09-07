@@ -2,6 +2,22 @@
 
 这份清单只保留和 `2026_6.typ` 简历强相关的基础知识方向，目标是面试前快速回看，而不是做系统性重学。
 
+## 操作系统与网络融合速刷
+
+如果时间有限，优先使用融合版：它把进程/线程、内存、I/O 多路复用、Socket、TCP、HTTP、TLS、DNS、SSE 和网络排障串成一条链路，每题都附有 **Key words**。
+
+- [操作系统与计算机网络面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/操作系统与计算机网络面试题_融合精简版.md)
+
+## 其他融合资料
+
+按上一份资料的方式，其他基础方向也整理成“结论 → 原理 → 场景 → Key words”的精简问答：
+
+- [编程语言与工程面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/编程语言与工程面试题_融合精简版.md)
+- [MySQL 与 Redis 面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/MySQL与Redis面试题_融合精简版.md)
+- [后端架构与系统设计面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/后端架构与系统设计面试题_融合精简版.md)
+- [中间件与工程实践面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/中间件与工程实践面试题_融合精简版.md)
+- [大模型与 Agent 面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/大模型与Agent面试题_融合精简版.md)
+
 ## 一、回看优先级
 
 1. `Redis`
