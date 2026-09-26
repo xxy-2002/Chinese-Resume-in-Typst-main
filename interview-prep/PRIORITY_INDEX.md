@@ -22,10 +22,12 @@
 ## A 级：强相关，建议在 S 级之后看
 
 1. [resume-skills-prep.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/resume-skills-prep.md)
-2. [mock-interview-v1-balanced.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/mock-interviews/mock-interview-v1-balanced.md)
-3. [mock-interview-v2-project-deep-dive.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/mock-interviews/mock-interview-v2-project-deep-dive.md)
-4. [mock-interview-v3-pressure-and-cross.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/mock-interviews/mock-interview-v3-pressure-and-cross.md)
-5. [Interview_Prep_Final.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/general/Interview_Prep_Final.md)
+2. [分布式与高可用面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/分布式与高可用面试题_融合精简版.md)
+3. [中间件与工程实践面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/中间件与工程实践面试题_融合精简版.md)
+4. [mock-interview-v1-balanced.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/mock-interviews/mock-interview-v1-balanced.md)
+5. [mock-interview-v2-project-deep-dive.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/mock-interviews/mock-interview-v2-project-deep-dive.md)
+6. [mock-interview-v3-pressure-and-cross.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/mock-interviews/mock-interview-v3-pressure-and-cross.md)
+7. [Interview_Prep_Final.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/general/Interview_Prep_Final.md)
 
 ## B 级：补洞和扩展
 

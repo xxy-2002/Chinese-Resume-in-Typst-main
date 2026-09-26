@@ -17,6 +17,7 @@
 - [后端架构与系统设计面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/后端架构与系统设计面试题_融合精简版.md)
 - [中间件与工程实践面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/中间件与工程实践面试题_融合精简版.md)
 - [大模型与 Agent 面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/大模型与Agent面试题_融合精简版.md)
+- [分布式与高可用面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/分布式与高可用面试题_融合精简版.md)
 
 ## 一、回看优先级
 
@@ -149,7 +150,26 @@
 - [agent-basics-2026.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/agent-basics-2026.md)
 - [agent-advanced-2026-for-ai-apps.md](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/agent-advanced-2026-for-ai-apps.md)
 
-## 九、最后速刷
+## 九、分布式与高可用（新增）
+
+必须回看：
+
+- 四维框架：服务发现、服务一致性、服务状态、服务通信
+- CAP/BASE 理论 + 工程取舍
+- 分布式锁（Redis SETNX + Lua）
+- 缓存三兄弟（穿透/击穿/雪崩）
+- 分布式事务方案对比
+- Kafka 核心原理（不丢消息、积压处理、故障恢复）
+- K8s 核心组件（Service/Deployment/StatefulSet/探针/HPA）
+- 高可用手段（熔断/降级/限流/超时/重试）
+- Flink vs Spark 定位和差异
+- 数据管道 vs 业务系统核心区别
+
+对应资料：
+
+- [分布式与高可用面试题·融合精简版](/home/xxy/Chinese-Resume-in-Typst-main/interview-prep/fundamentals/分布式与高可用面试题_融合精简版.md)
+
+## 十、最后速刷
 
 在完整看完 `md` 之后，再拿这些资料做速刷：
 

@@ -10,6 +10,7 @@
 - Moatable `Flow (Papago.ai)`
 - `Skill Factory`
 - 基础知识中的 `Redis / MySQL / 网络`
+- `分布式与高可用`（四维框架 + K8s/Spark/Flink/Ray）
 
 第二优先：
 
@@ -62,6 +63,7 @@
 - `Flow` 里的记忆、路由、评估、成本优化
 - `Skill Factory` 里的 Harness、GEPA、sandbox、trace、发布门禁
 - `Redis 分布式锁`、`MySQL 索引`、`TCP 三次握手` 各讲一遍
+- `分布式四维框架`（服务发现/一致性/状态/通信）各讲一遍
 
 ## 五、外部参考
 
